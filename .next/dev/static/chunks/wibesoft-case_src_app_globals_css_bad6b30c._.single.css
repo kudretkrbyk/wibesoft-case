@@ -1,20 +1,26 @@
 /* [project]/wibesoft-case/src/app/globals.css [app-client] (css) */
+@layer properties {
+  @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
+    *, :before, :after, ::backdrop {
+      --tw-font-weight: initial;
+    }
+  }
+}
+
 @layer theme {
   :root, :host {
-    --color-blue-500: #3080ff;
-    --color-zinc-50: #fafafa;
+    --color-red-500: #fb2c36;
     --color-black: #000;
     --color-white: #fff;
     --spacing: .25rem;
-    --container-3xl: 48rem;
+    --font-weight-medium: 500;
     --default-font-family: var(--font-geist-sans);
     --default-mono-font-family: var(--font-geist-mono);
   }
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
-      --color-blue-500: lab(54.1736% 13.3369 -74.6839);
-      --color-zinc-50: lab(98.26% 0 0);
+      --color-red-500: lab(55.4814% 75.0732 48.8528);
     }
   }
 }
@@ -268,77 +274,85 @@
 @layer components;
 
 @layer utilities {
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
+
   .flex {
     display: flex;
   }
 
-  .min-h-screen {
-    min-height: 100vh;
+  .w-\[220px\] {
+    width: 220px;
+  }
+
+  .w-\[260px\] {
+    width: 260px;
   }
 
   .w-full {
     width: 100%;
   }
 
-  .max-w-3xl {
-    max-width: var(--container-3xl);
-  }
-
-  .flex-col {
-    flex-direction: column;
-  }
-
-  .items-center {
-    align-items: center;
-  }
-
-  .justify-between {
-    justify-content: space-between;
-  }
-
   .justify-center {
     justify-content: center;
+  }
+
+  .rounded-full {
+    border-radius: 3.40282e38px;
+  }
+
+  .bg-black {
+    background-color: var(--color-black);
   }
 
   .bg-white {
     background-color: var(--color-white);
   }
 
-  .bg-zinc-50 {
-    background-color: var(--color-zinc-50);
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
   }
 
-  .px-16 {
-    padding-inline: calc(var(--spacing) * 16);
+  .px-\[100px\] {
+    padding-inline: 100px;
   }
 
-  .py-32 {
-    padding-block: calc(var(--spacing) * 32);
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
   }
 
-  .font-sans {
-    font-family: var(--font-geist-sans);
+  .py-\[72px\] {
+    padding-block: 72px;
   }
 
-  .text-blue-500 {
-    color: var(--color-blue-500);
+  .text-center {
+    text-align: center;
   }
 
-  .antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  .text-\[14px\] {
+    font-size: 14px;
   }
 
-  @media (min-width: 40rem) {
-    .sm\:items-start {
-      align-items: flex-start;
-    }
+  .font-medium {
+    --tw-font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-medium);
   }
 
-  @media (prefers-color-scheme: dark) {
-    .dark\:bg-black {
-      background-color: var(--color-black);
-    }
+  .text-black {
+    color: var(--color-black);
+  }
+
+  .text-red-500 {
+    color: var(--color-red-500);
+  }
+
+  .text-white {
+    color: var(--color-white);
+  }
+
+  .disabled\:opacity-50:disabled {
+    opacity: .5;
   }
 }
 
@@ -358,6 +372,11 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false
 }
 
 /*# sourceMappingURL=wibesoft-case_src_app_globals_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,27 @@
+/* [project]/wibesoft-case/src/app/integral_c69b3c2b.module.css [app-client] (css) */
+@font-face {
+  font-family: integral;
+  src: url("../media/IntegralCF_Bold-s.p.4d004f76.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: integral Fallback;
+  src: local(Arial);
+  ascent-override: 72.12%;
+  descent-override: 8.39%;
+  line-gap-override: 0.0%;
+  size-adjust: 149.06%;
+}
+
+.integral_c69b3c2b-module__1gagYa__className {
+  font-family: integral, integral Fallback;
+}
+
+.integral_c69b3c2b-module__1gagYa__variable {
+  --font-integral: "integral", "integral Fallback";
+}
+
+/*# sourceMappingURL=wibesoft-case_src_app_integral_c69b3c2b_module_css_bad6b30c._.single.css.map*/

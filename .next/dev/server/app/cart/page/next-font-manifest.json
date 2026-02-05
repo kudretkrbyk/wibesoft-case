@@ -1,0 +1,13 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/wibesoft-case/src/app/cart/page": [
+      "static/media/Satoshi_Regular-s.p.8b170606.woff2",
+      "static/media/Satoshi_Medium-s.p.eae7bb78.woff2",
+      "static/media/Satoshi_Bold-s.p.112e30eb.woff2",
+      "static/media/IntegralCF_Bold-s.p.4d004f76.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

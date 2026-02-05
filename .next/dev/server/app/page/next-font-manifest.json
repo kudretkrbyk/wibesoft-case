@@ -2,8 +2,10 @@
   "pages": {},
   "app": {
     "[project]/wibesoft-case/src/app/page": [
-      "static/media/caa3a2e1cccd8315-s.p.853070df.woff2",
-      "static/media/797e433ab948586e-s.p.dbea232f.woff2"
+      "static/media/Satoshi_Regular-s.p.8b170606.woff2",
+      "static/media/Satoshi_Medium-s.p.eae7bb78.woff2",
+      "static/media/Satoshi_Bold-s.p.112e30eb.woff2",
+      "static/media/IntegralCF_Bold-s.p.4d004f76.woff2"
     ]
   },
   "appUsingSizeAdjust": true,

@@ -12018,3 +12018,112 @@ https://nextjs.org/docs/messages/module-not-found
 [00:10:20.206] Server  ERROR   ⨯ Error: The default export is not a React Component in "/products/page"
 [00:10:20.487] Server  ERROR   ⨯ Error: The default export is not a React Component in "/products/page"
 [00:10:20.930] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/products/page"
+[00:11:05.472] Server  ERROR   ⨯ Error: The default export is not a React Component in "/products/page"
+[00:11:05.752] Server  ERROR   ⨯ Error: The default export is not a React Component in "/products/page"
+[00:11:06.272] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/products/page"
+[00:11:11.766] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:12.052] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <link>
+    <script>
+    <script>
+    <script>
+    <RootLayout>
+      <html lang="tr" className="satoshi_b2...">
+        <body className="font-satos...">
+          <Providers>
+            <QueryClientProvider client={{}}>
+              <Header>
+                <PromoBar>
+                <header className="w-full bg-...">
+                  <div className="w-full px-...">
+                    <div className="flex h-[48...">
+                      <div>
+                      <nav>
+                      <div className="ml-auto fl...">
+                        <div>
+                        <div className="flex items...">
+                          <button>
+                          <LinkComponent href="/cart" aria-label="Cart" title="Cart" className="relative">
+                            <a aria-label="Cart" title="Cart" className="relative" ref={function} ...>
+                              <ShoppingCart>
++                             <span
++                               className="absolute -right-2 -top-2 flex h-[18px] min-w-[18px] items-center justify-ce..."
++                             >
+                          ...
+              ...
+
+[00:11:12.154] Browser LOG     {}
+[00:11:12.754] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/hero/hero-model.png" "received" null
+[00:11:12.756] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/hero/hero-model-mobil.png" "received" null
+[00:11:13.047] Server  ERROR   ⨯ Error: The default export is not a React Component in "/products/page"
+[00:11:13.321] Server  ERROR   ⨯ Error: The default export is not a React Component in "/products/page"
+[00:11:13.799] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/browse-style/Casual.png" "received" null
+[00:11:13.809] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/browse-style/Formal.png" "received" null
+[00:11:13.868] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/browse-style/Party.png" "received" null
+[00:11:13.878] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/browse-style/Gym.png" "received" null
+[00:11:19.398] Server  ERROR   ⨯ Error: The default export is not a React Component in "/cart/page"
+[00:11:19.611] Server  ERROR   ⨯ Error: The default export is not a React Component in "/cart/page"
+[00:11:19.904] Server  ERROR   ⨯ Error: The default export is not a React Component in "/cart/page"
+[00:11:20.134] Server  ERROR   ⨯ Error: The default export is not a React Component in "/cart/page"
+[00:11:20.396] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/cart/page"
+[00:11:45.372] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:45.372] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./wibesoft-case/node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:11:45.372] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:11:45.802] Server  LOG     ✓ Compiled in 594ms
+[00:11:46.456] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:46.456] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <link>
+    <script>
+    <script>
+    <script>
+    <RootLayout>
+      <html lang="tr" className="satoshi_b2...">
+        <body className="font-satos...">
+          <Providers>
+            <QueryClientProvider client={{}}>
+              <Header>
+                <PromoBar>
+                <header className="w-full bg-...">
+                  <div className="w-full px-...">
+                    <div className="flex h-[48...">
+                      <div>
+                      <nav>
+                      <div className="ml-auto fl...">
+                        <div>
+                        <div className="flex items...">
+                          <button>
+                          <LinkComponent href="/cart" aria-label="Cart" title="Cart" className="relative">
+                            <a aria-label="Cart" title="Cart" className="relative" ref={function} ...>
+                              <ShoppingCart>
++                             <span
++                               className="absolute -right-2 -top-2 flex h-[18px] min-w-[18px] items-center justify-ce..."
++                             >
+                          ...
+                    ...
+              ...
+
+[00:12:35.864] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/hero/hero-model-mobil.png" "received" null

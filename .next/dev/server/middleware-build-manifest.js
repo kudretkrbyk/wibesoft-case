@@ -1,31 +1,6 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": [
-      "static/chunks/79db2_next_dist_compiled_604ed2cd._.js",
-      "static/chunks/79db2_next_dist_shared_lib_45e8c0e6._.js",
-      "static/chunks/79db2_next_dist_client_e222901c._.js",
-      "static/chunks/79db2_next_dist_7383ba84._.js",
-      "static/chunks/79db2_next_app_8ee69c6a.js",
-      "static/chunks/[next]_entry_page-loader_ts_4d20c4bd._.js",
-      "static/chunks/79db2_react-dom_098e1ba5._.js",
-      "static/chunks/79db2_ba807847._.js",
-      "static/chunks/[root-of-the-server]__40d33dc7._.js",
-      "static/chunks/wibesoft-case_pages__app_2da965e7._.js",
-      "static/chunks/turbopack-wibesoft-case_pages__app_773fb3a7._.js"
-    ],
-    "/_error": [
-      "static/chunks/79db2_next_dist_compiled_604ed2cd._.js",
-      "static/chunks/79db2_next_dist_shared_lib_5cc8218f._.js",
-      "static/chunks/79db2_next_dist_client_e222901c._.js",
-      "static/chunks/79db2_next_dist_dd8aa194._.js",
-      "static/chunks/79db2_next_error_93b8f317.js",
-      "static/chunks/[next]_entry_page-loader_ts_7f25902b._.js",
-      "static/chunks/79db2_react-dom_098e1ba5._.js",
-      "static/chunks/79db2_ba807847._.js",
-      "static/chunks/[root-of-the-server]__50b96be7._.js",
-      "static/chunks/wibesoft-case_pages__error_2da965e7._.js",
-      "static/chunks/turbopack-wibesoft-case_pages__error_f33c6644._.js"
-    ]
+    "/_app": []
   },
   "devFiles": [],
   "polyfillFiles": [

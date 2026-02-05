@@ -2775,6 +2775,12 @@ const configEnv = ("TURBOPACK compile-time value", {
         ("TURBOPACK compile-time value", 70),
         ("TURBOPACK compile-time value", 70),
         ("TURBOPACK compile-time value", 70),
+        ("TURBOPACK compile-time value", 70),
+        ("TURBOPACK compile-time value", 70),
+        ("TURBOPACK compile-time value", 70),
+        ("TURBOPACK compile-time value", 70),
+        ("TURBOPACK compile-time value", 70),
+        ("TURBOPACK compile-time value", 70),
         ("TURBOPACK compile-time value", 70)
     ]),
     "path": ("TURBOPACK compile-time value", "/_next/image"),
@@ -3129,6 +3135,12 @@ function getImageProps(imgProps) {
             ]),
             "qualities": ("TURBOPACK compile-time value", [
                 ("TURBOPACK compile-time value", 75),
+                ("TURBOPACK compile-time value", 70),
+                ("TURBOPACK compile-time value", 70),
+                ("TURBOPACK compile-time value", 70),
+                ("TURBOPACK compile-time value", 70),
+                ("TURBOPACK compile-time value", 70),
+                ("TURBOPACK compile-time value", 70),
                 ("TURBOPACK compile-time value", 70),
                 ("TURBOPACK compile-time value", 70),
                 ("TURBOPACK compile-time value", 70),
@@ -3867,86 +3879,23 @@ function useQuery(options, queryClient) {
 "use strict";
 
 __turbopack_context__.s([
-    "buildClientParams",
-    ()=>W,
     "createClient",
-    ()=>G,
+    ()=>J,
     "createConfig",
-    ()=>w,
+    ()=>x,
     "formDataBodySerializer",
-    ()=>T,
+    ()=>k,
     "jsonBodySerializer",
-    ()=>O,
+    ()=>E,
     "urlSearchParamsBodySerializer",
-    ()=>_
+    ()=>H
 ]);
-var A = async (s, r)=>{
-    let e = typeof r == "function" ? await r(s) : r;
-    if (e) return s.scheme === "bearer" ? `Bearer ${e}` : s.scheme === "basic" ? `Basic ${btoa(e)}` : e;
-}, z = (s, r, e)=>{
-    typeof e == "string" || e instanceof Blob ? s.append(r, e) : s.append(r, JSON.stringify(e));
-}, I = (s, r, e)=>{
-    typeof e == "string" ? s.append(r, e) : s.append(r, JSON.stringify(e));
-}, T = {
-    bodySerializer: (s)=>{
-        let r = new FormData;
-        return Object.entries(s).forEach(([e, a])=>{
-            a != null && (Array.isArray(a) ? a.forEach((i)=>z(r, e, i)) : z(r, e, a));
-        }), r;
-    }
-}, O = {
-    bodySerializer: (s)=>JSON.stringify(s, (r, e)=>typeof e == "bigint" ? e.toString() : e)
-}, _ = {
-    bodySerializer: (s)=>{
-        let r = new URLSearchParams;
-        return Object.entries(s).forEach(([e, a])=>{
-            a != null && (Array.isArray(a) ? a.forEach((i)=>I(r, e, i)) : I(r, e, a));
-        }), r.toString();
-    }
-}, U = {
-    $body_: "body",
-    $headers_: "headers",
-    $path_: "path",
-    $query_: "query"
-}, D = Object.entries(U), P = (s, r)=>{
-    r || (r = new Map);
-    for (let e of s)"in" in e ? e.key && r.set(e.key, {
-        in: e.in,
-        map: e.map
-    }) : e.args && P(e.args, r);
-    return r;
-}, H = (s)=>{
-    for (let [r, e] of Object.entries(s))e && typeof e == "object" && !Object.keys(e).length && delete s[r];
-}, W = (s, r)=>{
-    let e = {
-        body: {},
-        headers: {},
-        path: {},
-        query: {}
-    }, a = P(r), i;
-    for (let [o, n] of s.entries())if (r[o] && (i = r[o]), !!i) if ("in" in i) if (i.key) {
-        let t = a.get(i.key), l = t.map || i.key;
-        e[t.in][l] = n;
-    } else e.body = n;
-    else for (let [t, l] of Object.entries(n ?? {})){
-        let u = a.get(t);
-        if (u) {
-            let p = u.map || t;
-            e[u.in][p] = l;
-        } else {
-            let p = D.find(([d])=>t.startsWith(d));
-            if (p) {
-                let [d, c] = p;
-                e[c][t.slice(d.length)] = l;
-            } else for (let [d, c] of Object.entries(i.allowExtra ?? {}))if (c) {
-                e[d][t] = l;
-                break;
-            }
-        }
-    }
-    return H(e), e;
-}, B = (s)=>{
-    switch(s){
+var T = /\{[^{}]+\}/g, h = ({ allowReserved: n, name: i, value: e })=>{
+    if (e == null) return "";
+    if (typeof e == "object") throw new Error("Deeply-nested arrays/objects aren\u2019t supported. Provide your own `querySerializer()` to handle these.");
+    return `${i}=${n ? e : encodeURIComponent(e)}`;
+}, U = (n)=>{
+    switch(n){
         case "label":
             return ".";
         case "matrix":
@@ -3956,8 +3905,8 @@ var A = async (s, r)=>{
         default:
             return "&";
     }
-}, N = (s)=>{
-    switch(s){
+}, $ = (n)=>{
+    switch(n){
         case "form":
             return ",";
         case "pipeDelimited":
@@ -3967,8 +3916,8 @@ var A = async (s, r)=>{
         default:
             return ",";
     }
-}, Q = (s)=>{
-    switch(s){
+}, D = (n)=>{
+    switch(n){
         case "label":
             return ".";
         case "matrix":
@@ -3978,195 +3927,172 @@ var A = async (s, r)=>{
         default:
             return "&";
     }
-}, S = ({ allowReserved: s, explode: r, name: e, style: a, value: i })=>{
-    if (!r) {
-        let t = (s ? i : i.map((l)=>encodeURIComponent(l))).join(N(a));
+}, j = ({ allowReserved: n, explode: i, name: e, style: a, value: o })=>{
+    if (!i) {
+        let r = (n ? o : o.map((c)=>encodeURIComponent(c))).join($(a));
         switch(a){
             case "label":
-                return `.${t}`;
+                return `.${r}`;
             case "matrix":
-                return `;${e}=${t}`;
+                return `;${e}=${r}`;
             case "simple":
-                return t;
+                return r;
             default:
-                return `${e}=${t}`;
+                return `${e}=${r}`;
         }
     }
-    let o = B(a), n = i.map((t)=>a === "label" || a === "simple" ? s ? t : encodeURIComponent(t) : m({
-            allowReserved: s,
+    let s = U(a), t = o.map((r)=>a === "label" || a === "simple" ? n ? r : encodeURIComponent(r) : h({
+            allowReserved: n,
             name: e,
-            value: t
-        })).join(o);
-    return a === "label" || a === "matrix" ? o + n : n;
-}, m = ({ allowReserved: s, name: r, value: e })=>{
-    if (e == null) return "";
-    if (typeof e == "object") throw new Error("Deeply-nested arrays/objects aren\u2019t supported. Provide your own `querySerializer()` to handle these.");
-    return `${r}=${s ? e : encodeURIComponent(e)}`;
-}, q = ({ allowReserved: s, explode: r, name: e, style: a, value: i, valueOnly: o })=>{
-    if (i instanceof Date) return o ? i.toISOString() : `${e}=${i.toISOString()}`;
-    if (a !== "deepObject" && !r) {
-        let l = [];
-        Object.entries(i).forEach(([p, d])=>{
-            l = [
-                ...l,
-                p,
-                s ? d : encodeURIComponent(d)
+            value: r
+        })).join(s);
+    return a === "label" || a === "matrix" ? s + t : t;
+}, C = ({ allowReserved: n, explode: i, name: e, style: a, value: o })=>{
+    if (o instanceof Date) return `${e}=${o.toISOString()}`;
+    if (a !== "deepObject" && !i) {
+        let r = [];
+        Object.entries(o).forEach(([u, l])=>{
+            r = [
+                ...r,
+                u,
+                n ? l : encodeURIComponent(l)
             ];
         });
-        let u = l.join(",");
+        let c = r.join(",");
         switch(a){
             case "form":
-                return `${e}=${u}`;
+                return `${e}=${c}`;
             case "label":
-                return `.${u}`;
+                return `.${c}`;
             case "matrix":
-                return `;${e}=${u}`;
+                return `;${e}=${c}`;
             default:
-                return u;
+                return c;
         }
     }
-    let n = Q(a), t = Object.entries(i).map(([l, u])=>m({
-            allowReserved: s,
-            name: a === "deepObject" ? `${e}[${l}]` : l,
-            value: u
-        })).join(n);
-    return a === "label" || a === "matrix" ? n + t : t;
-};
-var J = /\{[^{}]+\}/g, M = ({ path: s, url: r })=>{
-    let e = r, a = r.match(J);
-    if (a) for (let i of a){
-        let o = false, n = i.substring(1, i.length - 1), t = "simple";
-        n.endsWith("*") && (o = true, n = n.substring(0, n.length - 1)), n.startsWith(".") ? (n = n.substring(1), t = "label") : n.startsWith(";") && (n = n.substring(1), t = "matrix");
-        let l = s[n];
-        if (l == null) continue;
-        if (Array.isArray(l)) {
-            e = e.replace(i, S({
-                explode: o,
-                name: n,
-                style: t,
-                value: l
+    let s = D(a), t = Object.entries(o).map(([r, c])=>h({
+            allowReserved: n,
+            name: a === "deepObject" ? `${e}[${r}]` : r,
+            value: c
+        })).join(s);
+    return a === "label" || a === "matrix" ? s + t : t;
+}, _ = ({ path: n, url: i })=>{
+    let e = i, a = i.match(T);
+    if (a) for (let o of a){
+        let s = !1, t = o.substring(1, o.length - 1), r = "simple";
+        t.endsWith("*") && (s = !0, t = t.substring(0, t.length - 1)), t.startsWith(".") ? (t = t.substring(1), r = "label") : t.startsWith(";") && (t = t.substring(1), r = "matrix");
+        let c = n[t];
+        if (c == null) continue;
+        if (Array.isArray(c)) {
+            e = e.replace(o, j({
+                explode: s,
+                name: t,
+                style: r,
+                value: c
             }));
             continue;
         }
-        if (typeof l == "object") {
-            e = e.replace(i, q({
-                explode: o,
-                name: n,
-                style: t,
-                value: l,
-                valueOnly: true
+        if (typeof c == "object") {
+            e = e.replace(o, C({
+                explode: s,
+                name: t,
+                style: r,
+                value: c
             }));
             continue;
         }
-        if (t === "matrix") {
-            e = e.replace(i, `;${m({
-                name: n,
-                value: l
+        if (r === "matrix") {
+            e = e.replace(o, `;${h({
+                name: t,
+                value: c
             })}`);
             continue;
         }
-        let u = encodeURIComponent(t === "label" ? `.${l}` : l);
-        e = e.replace(i, u);
+        let u = encodeURIComponent(r === "label" ? `.${c}` : c);
+        e = e.replace(o, u);
     }
     return e;
-}, k = ({ allowReserved: s, array: r, object: e } = {})=>(i)=>{
-        let o = [];
-        if (i && typeof i == "object") for(let n in i){
-            let t = i[n];
-            if (t != null) if (Array.isArray(t)) {
-                let l = S({
-                    allowReserved: s,
-                    explode: true,
-                    name: n,
-                    style: "form",
-                    value: t,
-                    ...r
-                });
-                l && o.push(l);
-            } else if (typeof t == "object") {
-                let l = q({
-                    allowReserved: s,
-                    explode: true,
-                    name: n,
-                    style: "deepObject",
-                    value: t,
-                    ...e
-                });
-                l && o.push(l);
-            } else {
-                let l = m({
-                    allowReserved: s,
-                    name: n,
-                    value: t
-                });
-                l && o.push(l);
+}, b = ({ allowReserved: n, array: i, object: e } = {})=>(o)=>{
+        let s = [];
+        if (o && typeof o == "object") for(let t in o){
+            let r = o[t];
+            if (r != null) {
+                if (Array.isArray(r)) {
+                    s = [
+                        ...s,
+                        j({
+                            allowReserved: n,
+                            explode: !0,
+                            name: t,
+                            style: "form",
+                            value: r,
+                            ...i
+                        })
+                    ];
+                    continue;
+                }
+                if (typeof r == "object") {
+                    s = [
+                        ...s,
+                        C({
+                            allowReserved: n,
+                            explode: !0,
+                            name: t,
+                            style: "deepObject",
+                            value: r,
+                            ...e
+                        })
+                    ];
+                    continue;
+                }
+                s = [
+                    ...s,
+                    h({
+                        allowReserved: n,
+                        name: t,
+                        value: r
+                    })
+                ];
             }
         }
-        return o.join("&");
-    }, E = (s)=>{
-    if (!s) return "stream";
-    let r = s.split(";")[0]?.trim();
-    if (r) {
-        if (r.startsWith("application/json") || r.endsWith("+json")) return "json";
-        if (r === "multipart/form-data") return "formData";
+        return s.join("&");
+    }, A = (n)=>{
+    if (n) {
+        if (n.startsWith("application/json") || n.endsWith("+json")) return "json";
+        if (n === "multipart/form-data") return "formData";
         if ([
             "application/",
             "audio/",
             "image/",
             "video/"
-        ].some((e)=>r.startsWith(e))) return "blob";
-        if (r.startsWith("text/")) return "text";
+        ].some((i)=>n.startsWith(i))) return "blob";
+        if (n.startsWith("text/")) return "text";
     }
-}, $ = async ({ security: s, ...r })=>{
-    for (let e of s){
-        let a = await A(e, r.auth);
-        if (!a) continue;
-        let i = e.name ?? "Authorization";
-        switch(e.in){
-            case "query":
-                r.query || (r.query = {}), r.query[i] = a;
-                break;
-            case "cookie":
-                r.headers.append("Cookie", `${i}=${a}`);
-                break;
-            case "header":
-            default:
-                r.headers.set(i, a);
-                break;
-        }
-        return;
-    }
-}, C = (s)=>L({
-        baseUrl: s.baseUrl,
-        path: s.path,
-        query: s.query,
-        querySerializer: typeof s.querySerializer == "function" ? s.querySerializer : k(s.querySerializer),
-        url: s.url
-    }), L = ({ baseUrl: s, path: r, query: e, querySerializer: a, url: i })=>{
-    let o = i.startsWith("/") ? i : `/${i}`, n = (s ?? "") + o;
-    r && (n = M({
-        path: r,
-        url: n
+}, w = ({ baseUrl: n, path: i, query: e, querySerializer: a, url: o })=>{
+    let s = o.startsWith("/") ? o : `/${o}`, t = n + s;
+    i && (t = _({
+        path: i,
+        url: t
     }));
-    let t = e ? a(e) : "";
-    return t.startsWith("?") && (t = t.substring(1)), t && (n += `?${t}`), n;
-}, x = (s, r)=>{
+    let r = e ? a(e) : "";
+    return r.startsWith("?") && (r = r.substring(1)), r && (t += `?${r}`), t;
+}, R = (n, i)=>{
     let e = {
-        ...s,
-        ...r
+        ...n,
+        ...i
     };
-    return e.baseUrl?.endsWith("/") && (e.baseUrl = e.baseUrl.substring(0, e.baseUrl.length - 1)), e.headers = j(s.headers, r.headers), e;
-}, j = (...s)=>{
-    let r = new Headers;
-    for (let e of s){
+    return e.baseUrl?.endsWith("/") && (e.baseUrl = e.baseUrl.substring(0, e.baseUrl.length - 1)), e.headers = O(n.headers, i.headers), e;
+}, O = (...n)=>{
+    let i = new Headers;
+    for (let e of n){
         if (!e || typeof e != "object") continue;
         let a = e instanceof Headers ? e.entries() : Object.entries(e);
-        for (let [i, o] of a)if (o === null) r.delete(i);
-        else if (Array.isArray(o)) for (let n of o)r.append(i, n);
-        else o !== void 0 && r.set(i, typeof o == "object" ? JSON.stringify(o) : o);
+        for (let [o, s] of a)if (s === null) i.delete(o);
+        else if (Array.isArray(s)) for (let t of s)i.append(o, t);
+        else s !== void 0 && i.set(o, typeof s == "object" ? JSON.stringify(s) : s);
     }
-    return r;
-}, g = class {
+    return i;
+}, y = class {
     _fns;
     constructor(){
         this._fns = [];
@@ -4174,143 +4100,160 @@ var J = /\{[^{}]+\}/g, M = ({ path: s, url: r })=>{
     clear() {
         this._fns = [];
     }
-    getInterceptorIndex(r) {
-        return typeof r == "number" ? this._fns[r] ? r : -1 : this._fns.indexOf(r);
+    exists(i) {
+        return this._fns.indexOf(i) !== -1;
     }
-    exists(r) {
-        let e = this.getInterceptorIndex(r);
-        return !!this._fns[e];
+    eject(i) {
+        let e = this._fns.indexOf(i);
+        e !== -1 && (this._fns = [
+            ...this._fns.slice(0, e),
+            ...this._fns.slice(e + 1)
+        ]);
     }
-    eject(r) {
-        let e = this.getInterceptorIndex(r);
-        this._fns[e] && (this._fns[e] = null);
-    }
-    update(r, e) {
-        let a = this.getInterceptorIndex(r);
-        return this._fns[a] ? (this._fns[a] = e, r) : false;
-    }
-    use(r) {
-        return this._fns = [
+    use(i) {
+        this._fns = [
             ...this._fns,
-            r
-        ], this._fns.length - 1;
+            i
+        ];
     }
-}, v = ()=>({
-        error: new g,
-        request: new g,
-        response: new g
-    }), V = k({
-    allowReserved: false,
+}, P = ()=>({
+        error: new y,
+        request: new y,
+        response: new y
+    }), q = (n, i, e)=>{
+    typeof e == "string" || e instanceof Blob ? n.append(i, e) : n.append(i, JSON.stringify(e));
+}, k = {
+    bodySerializer: (n)=>{
+        let i = new FormData;
+        return Object.entries(n).forEach(([e, a])=>{
+            a != null && (Array.isArray(a) ? a.forEach((o)=>q(i, e, o)) : q(i, e, a));
+        }), i;
+    }
+}, E = {
+    bodySerializer: (n)=>JSON.stringify(n)
+}, z = (n, i, e)=>{
+    typeof e == "string" ? n.append(i, e) : n.append(i, JSON.stringify(e));
+}, H = {
+    bodySerializer: (n)=>{
+        let i = new URLSearchParams;
+        return Object.entries(n).forEach(([e, a])=>{
+            a != null && (Array.isArray(a) ? a.forEach((o)=>z(i, e, o)) : z(i, e, a));
+        }), i;
+    }
+}, W = b({
+    allowReserved: !1,
     array: {
-        explode: true,
+        explode: !0,
         style: "form"
     },
     object: {
-        explode: true,
+        explode: !0,
         style: "deepObject"
     }
-}), F = {
+}), B = {
     "Content-Type": "application/json"
-}, w = (s = {})=>({
-        ...O,
-        headers: F,
+}, x = (n = {})=>({
+        ...E,
+        baseUrl: "",
+        fetch: globalThis.fetch,
+        headers: B,
         parseAs: "auto",
-        querySerializer: V,
-        ...s
+        querySerializer: W,
+        ...n
     });
-var G = (s = {})=>{
-    let r = x(w(), s), e = ()=>({
-            ...r
-        }), a = (n)=>(r = x(r, n), e()), i = v(), o = async (n)=>{
-        let t = {
-            ...r,
-            ...n,
-            fetch: n.fetch ?? r.fetch ?? globalThis.fetch,
-            headers: j(r.headers, n.headers)
-        };
-        t.security && await $({
+var J = (n = {})=>{
+    let i = R(x(), n), e = ()=>({
+            ...i
+        }), a = (t)=>(i = R(i, t), e()), o = P(), s = async (t)=>{
+        let r = {
+            ...i,
             ...t,
-            security: t.security
-        }), t.body && t.bodySerializer && (t.body = t.bodySerializer(t.body)), (t.body === void 0 || t.body === "") && t.headers.delete("Content-Type");
-        let l = C(t), u = {
-            redirect: "follow",
-            ...t
-        }, p = new Request(l, u);
-        for (let f of i.request._fns)f && (p = await f(p, t));
-        let d = t.fetch, c = await d(p);
-        for (let f of i.response._fns)f && (c = await f(c, p, t));
-        let b = {
-            request: p,
-            response: c
+            headers: O(i.headers, t.headers)
         };
-        if (c.ok) {
-            if (c.status === 204 || c.headers.get("Content-Length") === "0") return t.responseStyle === "data" ? {} : {
+        r.body && r.bodySerializer && (r.body = r.bodySerializer(r.body)), r.body || r.headers.delete("Content-Type");
+        let c = w({
+            baseUrl: r.baseUrl ?? "",
+            path: r.path,
+            query: r.query,
+            querySerializer: typeof r.querySerializer == "function" ? r.querySerializer : b(r.querySerializer),
+            url: r.url
+        }), u = {
+            redirect: "follow",
+            ...r
+        }, l = new Request(c, u);
+        for (let f of o.request._fns)l = await f(l, r);
+        let I = r.fetch, p = await I(l);
+        for (let f of o.response._fns)p = await f(p, l, r);
+        let g = {
+            request: l,
+            response: p
+        };
+        if (p.ok) {
+            if (p.status === 204 || p.headers.get("Content-Length") === "0") return {
                 data: {},
-                ...b
+                ...g
             };
-            let f = (t.parseAs === "auto" ? E(c.headers.get("Content-Type")) : t.parseAs) ?? "json";
-            if (f === "stream") return t.responseStyle === "data" ? c.body : {
-                data: c.body,
-                ...b
+            if (r.parseAs === "stream") return {
+                data: p.body,
+                ...g
             };
-            let h = await c[f]();
-            return f === "json" && (t.responseValidator && await t.responseValidator(h), t.responseTransformer && (h = await t.responseTransformer(h))), t.responseStyle === "data" ? h : {
-                data: h,
-                ...b
+            let f = (r.parseAs === "auto" ? A(p.headers.get("Content-Type")) : r.parseAs) ?? "json", S = await p[f]();
+            return f === "json" && r.responseTransformer && (S = await r.responseTransformer(S)), {
+                data: S,
+                ...g
             };
         }
-        let R = await c.text();
+        let m = await p.text();
         try {
-            R = JSON.parse(R);
+            m = JSON.parse(m);
         } catch  {}
-        let y = R;
-        for (let f of i.error._fns)f && (y = await f(R, c, p, t));
-        if (y = y || {}, t.throwOnError) throw y;
-        return t.responseStyle === "data" ? void 0 : {
-            error: y,
-            ...b
+        let d = m;
+        for (let f of o.error._fns)d = await f(m, p, l, r);
+        if (d = d || {}, r.throwOnError) throw d;
+        return {
+            error: d,
+            ...g
         };
     };
     return {
-        buildUrl: C,
-        connect: (n)=>o({
-                ...n,
+        connect: (t)=>s({
+                ...t,
                 method: "CONNECT"
             }),
-        delete: (n)=>o({
-                ...n,
+        delete: (t)=>s({
+                ...t,
                 method: "DELETE"
             }),
-        get: (n)=>o({
-                ...n,
+        get: (t)=>s({
+                ...t,
                 method: "GET"
             }),
         getConfig: e,
-        head: (n)=>o({
-                ...n,
+        head: (t)=>s({
+                ...t,
                 method: "HEAD"
             }),
-        interceptors: i,
-        options: (n)=>o({
-                ...n,
+        interceptors: o,
+        options: (t)=>s({
+                ...t,
                 method: "OPTIONS"
             }),
-        patch: (n)=>o({
-                ...n,
+        patch: (t)=>s({
+                ...t,
                 method: "PATCH"
             }),
-        post: (n)=>o({
-                ...n,
+        post: (t)=>s({
+                ...t,
                 method: "POST"
             }),
-        put: (n)=>o({
-                ...n,
+        put: (t)=>s({
+                ...t,
                 method: "PUT"
             }),
-        request: o,
+        request: s,
         setConfig: a,
-        trace: (n)=>o({
-                ...n,
+        trace: (t)=>s({
+                ...t,
                 method: "TRACE"
             })
     };

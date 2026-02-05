@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///mnt/d/react/next/wibesoft-case/src/app/products/error.tsx"],"sourcesContent":["'use client'\n\nexport default function Error({ reset }: { reset: () => void }) {\n  return (\n    <div className=\"mx-auto max-w-[1240px] px-4 py-10\">\n      <h2 className=\"font-satoshi text-[20px] font-bold\">Bir hata oluştu</h2>\n      <p className=\"mt-2 text-black/70\">\n        Ürünler yüklenirken sorun yaşandı. Tekrar deneyebilirsin.\n      </p>\n\n      <button\n        onClick={reset}\n        className=\"mt-6 rounded-full bg-black px-6 py-3 font-satoshi text-[14px] font-medium text-white\"\n      >\n        Yeniden dene\n      </button>\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;;AAEe,SAAS,MAAM,EAAE,KAAK,EAAyB;IAC5D,qBACE,iNAAC;QAAI,WAAU;;0BACb,iNAAC;gBAAG,WAAU;0BAAqC;;;;;;0BACnD,iNAAC;gBAAE,WAAU;0BAAqB;;;;;;0BAIlC,iNAAC;gBACC,SAAS;gBACT,WAAU;0BACX;;;;;;;;;;;;AAKP;KAhBwB"}}]
+}

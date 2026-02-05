@@ -11223,3 +11223,798 @@ Import trace:
   Server Component:
     ./wibesoft-case/src/components/layout/Header.tsx
     ./wibesoft-case/src/app/layout.tsx
+[00:09:40.552] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+
+
+./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+
+[00:09:40.965] Browser ERROR   uncaughtError: Error: ./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+
+[00:09:41.184] Browser ERROR   ./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+[00:09:41.184] Browser ERROR   ./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+[00:09:41.184] Browser ERROR   ./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+[00:09:41.184] Browser ERROR   ./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+[00:09:41.184] Browser ERROR   ./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+[00:09:41.184] Browser ERROR   ./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+[00:10:00.065] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:1:1
+Module not found: Can't resolve 'zustand'
+> 1 | import { create } from 'zustand'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { persist, createJSONStorage } from 'zustand/middleware'
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.067] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:1:1
+Module not found: Can't resolve 'zustand'
+> 1 | import { create } from 'zustand'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { persist, createJSONStorage } from 'zustand/middleware'
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.069] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:1:1
+Module not found: Can't resolve 'zustand'
+> 1 | import { create } from 'zustand'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { persist, createJSONStorage } from 'zustand/middleware'
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.071] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:1:1
+Module not found: Can't resolve 'zustand'
+> 1 | import { create } from 'zustand'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { persist, createJSONStorage } from 'zustand/middleware'
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.073] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.074] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.075] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.076] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.078] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.079] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.084] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:1:1
+Module not found: Can't resolve 'zustand'
+> 1 | import { create } from 'zustand'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { persist, createJSONStorage } from 'zustand/middleware'
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.085] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:1:1
+Module not found: Can't resolve 'zustand'
+> 1 | import { create } from 'zustand'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { persist, createJSONStorage } from 'zustand/middleware'
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.086] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:1:1
+Module not found: Can't resolve 'zustand'
+> 1 | import { create } from 'zustand'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { persist, createJSONStorage } from 'zustand/middleware'
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.087] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:1:1
+Module not found: Can't resolve 'zustand'
+> 1 | import { create } from 'zustand'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { persist, createJSONStorage } from 'zustand/middleware'
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.088] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.089] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.091] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.092] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.093] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.094] Server  ERROR   ⨯ ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:00.197] Browser ERROR   ./wibesoft-case/src/store/cart.store.ts:1:1
+Module not found: Can't resolve 'zustand'
+> 1 | import { create } from 'zustand'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { persist, createJSONStorage } from 'zustand/middleware'
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:00.197] Browser ERROR   ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:19.211] Browser ERROR   ./wibesoft-case/src/store/cart.store.ts:1:1
+Module not found: Can't resolve 'zustand'
+> 1 | import { create } from 'zustand'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { persist, createJSONStorage } from 'zustand/middleware'
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:19.211] Browser ERROR   ./wibesoft-case/src/store/cart.store.ts:2:1
+Module not found: Can't resolve 'zustand/middleware'
+  1 | import { create } from 'zustand'
+> 2 | import { persist, createJSONStorage } from 'zustand/middleware'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import type { Product } from '@/lib/types/product'
+  4 |
+  5 | export type CartItem = {
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/store/cart.store.ts [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:19.536] Server  LOG     ✓ Compiled in 439ms
+[00:10:20.206] Server  ERROR   ⨯ Error: The default export is not a React Component in "/products/page"
+[00:10:20.487] Server  ERROR   ⨯ Error: The default export is not a React Component in "/products/page"
+[00:10:20.930] Browser ERROR   uncaughtError: Error: The default export is not a React Component in "/products/page"

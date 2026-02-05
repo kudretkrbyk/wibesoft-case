@@ -73,8 +73,90 @@ const mod = __turbopack_context__.x("next/dist/server/app-render/work-async-stor
 
 module.exports = mod;
 }),
-"[project]/wibesoft-case/src/store/cart.store.ts [app-ssr] (ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/wibesoft-case/src/store/cart.store.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
 
+__turbopack_context__.s([
+    "useCartStore",
+    ()=>useCartStore
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$wibesoft$2d$case$2f$node_modules$2f$zustand$2f$esm$2f$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wibesoft-case/node_modules/zustand/esm/react.mjs [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$wibesoft$2d$case$2f$node_modules$2f$zustand$2f$esm$2f$middleware$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wibesoft-case/node_modules/zustand/esm/middleware.mjs [app-ssr] (ecmascript)");
+;
+;
+function clampQty(qty) {
+    if (!Number.isFinite(qty)) return 1;
+    return Math.max(1, Math.min(99, Math.floor(qty)));
+}
+// SSR-safe storage (server’da localStorage yok)
+const storage = ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : (0, __TURBOPACK__imported__module__$5b$project$5d2f$wibesoft$2d$case$2f$node_modules$2f$zustand$2f$esm$2f$middleware$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createJSONStorage"])(()=>({
+        getItem: ()=>null,
+        setItem: ()=>{},
+        removeItem: ()=>{}
+    }));
+const useCartStore = (0, __TURBOPACK__imported__module__$5b$project$5d2f$wibesoft$2d$case$2f$node_modules$2f$zustand$2f$esm$2f$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["create"])()((0, __TURBOPACK__imported__module__$5b$project$5d2f$wibesoft$2d$case$2f$node_modules$2f$zustand$2f$esm$2f$middleware$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["persist"])((set, get)=>({
+        items: [],
+        add: (product, qty = 1, meta)=>{
+            const addQty = clampQty(qty);
+            set((state)=>{
+                const idx = state.items.findIndex((it)=>it.id === product.id);
+                // normalize item
+                const base = {
+                    id: product.id,
+                    title: product.title,
+                    price: product.price,
+                    image: product.image,
+                    qty: addQty,
+                    size: meta?.size,
+                    color: meta?.color
+                };
+                if (idx === -1) {
+                    return {
+                        items: [
+                            base,
+                            ...state.items
+                        ]
+                    };
+                }
+                const copy = state.items.slice();
+                const current = copy[idx];
+                copy[idx] = {
+                    ...current,
+                    qty: clampQty(current.qty + addQty)
+                };
+                return {
+                    items: copy
+                };
+            });
+        },
+        remove: (id)=>{
+            set((state)=>({
+                    items: state.items.filter((it)=>it.id !== id)
+                }));
+        },
+        setQty: (id, qty)=>{
+            const nextQty = clampQty(qty);
+            set((state)=>({
+                    items: state.items.map((it)=>it.id === id ? {
+                            ...it,
+                            qty: nextQty
+                        } : it)
+                }));
+        },
+        clear: ()=>set({
+                items: []
+            }),
+        totalItems: ()=>get().items.reduce((sum, it)=>sum + it.qty, 0),
+        subtotal: ()=>get().items.reduce((sum, it)=>sum + it.price * it.qty, 0)
+    }), {
+    name: 'shopco-cart-v1',
+    storage,
+    version: 1,
+    // sadece items’ı persist et (selector fonksiyonlarını değil)
+    partialize: (state)=>({
+            items: state.items
+        })
+}));
 }),
 "[project]/wibesoft-case/src/components/layout/PromoBar.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";

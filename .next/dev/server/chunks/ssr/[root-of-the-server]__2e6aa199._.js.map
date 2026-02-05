@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///mnt/d/react/next/wibesoft-case/src/app/account/page.tsx"],"sourcesContent":["import Link from 'next/link'\n\nexport default function Page() {\n  return (\n    <main className=\"w-full px-[16px] sm:px-[32px] md:px-[100px] py-16\">\n      <h1 className=\"font-integral text-3xl text-black\">Coming soon</h1>\n      <p className=\"mt-3 max-w-[600px] font-satoshi text-black/60\">\n        This page is a placeholder for the case study. Core flows are implemented:\n        product listing, product detail, and cart.\n      </p>\n\n      <div className=\"mt-6\">\n        <Link\n          href=\"/products\"\n          className=\"inline-flex h-11 items-center rounded-[62px] bg-black px-6 font-satoshi text-white\"\n        >\n          Browse products\n        </Link>\n      </div>\n    </main>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,kQAAC;QAAK,WAAU;;0BACd,kQAAC;gBAAG,WAAU;0BAAoC;;;;;;0BAClD,kQAAC;gBAAE,WAAU;0BAAgD;;;;;;0BAK7D,kQAAC;gBAAI,WAAU;0BACb,cAAA,kQAAC,8MAAI;oBACH,MAAK;oBACL,WAAU;8BACX;;;;;;;;;;;;;;;;;AAMT"}}]
+}

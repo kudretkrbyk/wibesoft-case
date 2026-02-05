@@ -36,8 +36,8 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$wibesoft$2d$case$2f$src$2f$services$2f$api$2f$requests$2f$services$2e$gen$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/wibesoft-case/src/services/api/requests/services.gen.ts [app-ssr] (ecmascript)");
 ;
-const baseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
-if (!baseUrl) {
+const baseUrl = ("TURBOPACK compile-time value", "https://fakestoreapi.com");
+if ("TURBOPACK compile-time falsy", 0) {
 // eslint-disable-next-line no-console
 // console.warn(
 //   'NEXT_PUBLIC_API_BASE_URL is missing. Requests may hit localhost.',

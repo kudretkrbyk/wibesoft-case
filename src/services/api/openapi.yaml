@@ -1,0 +1,63 @@
+openapi: 3.0.3
+info:
+  title: Fake Store API (Minimal)
+  version: "1.0.0"
+servers:
+  - url: https://fakestoreapi.com
+paths:
+  /products:
+    get:
+      operationId: getProducts
+      responses:
+        "200":
+          description: Products
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Product"
+  /products/{id}:
+    get:
+      operationId: getProductById
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: Product
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Product"
+components:
+  schemas:
+    Rating:
+      type: object
+      properties:
+        rate:
+          type: number
+        count:
+          type: integer
+      required: [rate, count]
+    Product:
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        price:
+          type: number
+        description:
+          type: string
+        category:
+          type: string
+        image:
+          type: string
+        rating:
+          $ref: "#/components/schemas/Rating"
+      required: [id, title, price, description, category, image]

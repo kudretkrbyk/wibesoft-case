@@ -1203,3 +1203,1981 @@ Import traces:
     ./wibesoft-case/src/app/page.tsx [Server Component]
 
 https://nextjs.org/docs/messages/module-not-found
+[00:04:58.318] Browser ERROR   ./wibesoft-case/src/app/page.tsx:12:1
+Module not found: Can't resolve '@/components/products/skeletons/ProductSectionSkeleton'
+  10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+  11 |
+> 12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 |
+  14 | function SectionError({
+  15 |   message,
+
+Import map: aliased to relative './src/components/products/skeletons/ProductSectionSkeleton' inside of [project]/wibesoft-case
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:58.318] Browser ERROR   ./wibesoft-case/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/lib/queries/useProducts'
+   7 | import HappyCustomers from '@/components/home/HappyCustomers'
+   8 |
+>  9 | import { useProducts } from '@/lib/queries/useProducts'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+
+Import map: aliased to relative './src/lib/queries/useProducts' inside of [project]/wibesoft-case
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:58.318] Browser ERROR   ./wibesoft-case/src/app/layout.tsx:3:1
+Module not found: Can't resolve '@/lib/react-query/providers'
+  1 | import type { Metadata } from 'next'
+  2 | import './globals.css'
+> 3 | import { Providers } from '@/lib/react-query/providers'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import localFont from 'next/font/local'
+  5 | import Header from '@/components/layout/Header'
+  6 | import Footer from '@/components/layout/Footer'
+
+Import map: aliased to relative './src/lib/react-query/providers' inside of [project]/wibesoft-case
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:58.318] Browser ERROR   ./wibesoft-case/src/app/page.tsx:10:1
+Module not found: Can't resolve '@/lib/selectors/products'
+   8 |
+   9 | import { useProducts } from '@/lib/queries/useProducts'
+> 10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+  13 |
+
+Import map: aliased to relative './src/lib/selectors/products' inside of [project]/wibesoft-case
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:01.578] Browser ERROR   ./wibesoft-case/src/app/page.tsx:12:1
+Module not found: Can't resolve '@/components/products/skeletons/ProductSectionSkeleton'
+  10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+  11 |
+> 12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  13 |
+  14 | function SectionError({
+  15 |   message,
+
+Import map: aliased to relative './src/components/products/skeletons/ProductSectionSkeleton' inside of [project]/wibesoft-case
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:01.578] Browser ERROR   ./wibesoft-case/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/lib/queries/useProducts'
+   7 | import HappyCustomers from '@/components/home/HappyCustomers'
+   8 |
+>  9 | import { useProducts } from '@/lib/queries/useProducts'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+
+Import map: aliased to relative './src/lib/queries/useProducts' inside of [project]/wibesoft-case
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:01.578] Browser ERROR   ./wibesoft-case/src/app/layout.tsx:3:1
+Module not found: Can't resolve '@/lib/react-query/providers'
+  1 | import type { Metadata } from 'next'
+  2 | import './globals.css'
+> 3 | import { Providers } from '@/lib/react-query/providers'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import localFont from 'next/font/local'
+  5 | import Header from '@/components/layout/Header'
+  6 | import Footer from '@/components/layout/Footer'
+
+Import map: aliased to relative './src/lib/react-query/providers' inside of [project]/wibesoft-case
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:01.578] Browser ERROR   ./wibesoft-case/src/app/page.tsx:10:1
+Module not found: Can't resolve '@/lib/selectors/products'
+   8 |
+   9 | import { useProducts } from '@/lib/queries/useProducts'
+> 10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+  13 |
+
+Import map: aliased to relative './src/lib/selectors/products' inside of [project]/wibesoft-case
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:01.916] Server  ERROR   ⨯ ./wibesoft-case/src/app/layout.tsx:3:1
+Module not found: Can't resolve '@/lib/react-query/providers'
+  1 | import type { Metadata } from 'next'
+  2 | import './globals.css'
+> 3 | import { Providers } from '@/lib/react-query/providers'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import localFont from 'next/font/local'
+  5 | import Header from '@/components/layout/Header'
+  6 | import Footer from '@/components/layout/Footer'
+
+Import map: aliased to relative './src/lib/react-query/providers' inside of [project]/wibesoft-case
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.918] Server  ERROR   ⨯ ./wibesoft-case/src/app/layout.tsx:3:1
+Module not found: Can't resolve '@/lib/react-query/providers'
+  1 | import type { Metadata } from 'next'
+  2 | import './globals.css'
+> 3 | import { Providers } from '@/lib/react-query/providers'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import localFont from 'next/font/local'
+  5 | import Header from '@/components/layout/Header'
+  6 | import Footer from '@/components/layout/Footer'
+
+Import map: aliased to relative './src/lib/react-query/providers' inside of [project]/wibesoft-case
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.920] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.921] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.923] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.926] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.928] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.931] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.934] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.936] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.938] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.940] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.942] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.943] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.944] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.946] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.949] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.953] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.958] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.962] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/NewsletterCTA.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | 'use client'
+  2 |
+> 3 | import { Mail } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function NewsletterCTA() {
+  6 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/NewsletterCTA.tsx
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.963] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/NewsletterCTA.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | 'use client'
+  2 |
+> 3 | import { Mail } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function NewsletterCTA() {
+  6 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/NewsletterCTA.tsx
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.964] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/NewsletterCTA.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | 'use client'
+  2 |
+> 3 | import { Mail } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function NewsletterCTA() {
+  6 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/NewsletterCTA.tsx
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.966] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/NewsletterCTA.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | 'use client'
+  2 |
+> 3 | import { Mail } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function NewsletterCTA() {
+  6 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/NewsletterCTA.tsx
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.967] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/PromoBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import { X } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   href?: string
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.968] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/PromoBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import { X } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   href?: string
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.969] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/PromoBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import { X } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   href?: string
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.970] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/PromoBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import { X } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   href?: string
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.976] Server  ERROR   ⨯ ./wibesoft-case/src/components/ui/Button.tsx:4:1
+Module not found: Can't resolve '../../lib/utils'
+  2 |
+  3 | import * as React from 'react'
+> 4 | import { cn } from '../../lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type ButtonVariant = 'default' | 'outline'
+  7 | type ButtonSize = 'default' | 'icon'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/ui/Button.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/home/Hero.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/ui/Button.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/home/Hero.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.977] Server  ERROR   ⨯ ./wibesoft-case/src/components/ui/Button.tsx:4:1
+Module not found: Can't resolve '../../lib/utils'
+  2 |
+  3 | import * as React from 'react'
+> 4 | import { cn } from '../../lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type ButtonVariant = 'default' | 'outline'
+  7 | type ButtonSize = 'default' | 'icon'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/ui/Button.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/home/Hero.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/ui/Button.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/home/Hero.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.978] Server  ERROR   ⨯ ./wibesoft-case/src/components/ui/Button.tsx:4:1
+Module not found: Can't resolve '../../lib/utils'
+  2 |
+  3 | import * as React from 'react'
+> 4 | import { cn } from '../../lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type ButtonVariant = 'default' | 'outline'
+  7 | type ButtonSize = 'default' | 'icon'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/ui/Button.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/home/Hero.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/ui/Button.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/home/Hero.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.979] Server  ERROR   ⨯ ./wibesoft-case/src/components/ui/Button.tsx:4:1
+Module not found: Can't resolve '../../lib/utils'
+  2 |
+  3 | import * as React from 'react'
+> 4 | import { cn } from '../../lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type ButtonVariant = 'default' | 'outline'
+  7 | type ButtonSize = 'default' | 'icon'
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/ui/Button.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/home/Hero.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/ui/Button.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/home/Hero.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.980] Server  ERROR   ⨯ ./wibesoft-case/src/components/home/HappyCustomers.tsx:5:1
+Module not found: Can't resolve '@/lib/mock/reviews'
+  3 | import { useEffect, useMemo, useRef, useState } from 'react'
+  4 | import StarIcon from '@/components/ui/StarIcon'
+> 5 | import { MOCK_REVIEWS } from '@/lib/mock/reviews'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | function Stars({ rating }: { rating: number }) {
+  8 |   const full = Math.floor(rating)
+
+Import map: aliased to relative './src/lib/mock/reviews' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/home/HappyCustomers.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/home/HappyCustomers.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.982] Server  ERROR   ⨯ ./wibesoft-case/src/components/home/HappyCustomers.tsx:5:1
+Module not found: Can't resolve '@/lib/mock/reviews'
+  3 | import { useEffect, useMemo, useRef, useState } from 'react'
+  4 | import StarIcon from '@/components/ui/StarIcon'
+> 5 | import { MOCK_REVIEWS } from '@/lib/mock/reviews'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | function Stars({ rating }: { rating: number }) {
+  8 |   const full = Math.floor(rating)
+
+Import map: aliased to relative './src/lib/mock/reviews' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/home/HappyCustomers.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/home/HappyCustomers.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.983] Server  ERROR   ⨯ ./wibesoft-case/src/components/home/HappyCustomers.tsx:5:1
+Module not found: Can't resolve '@/lib/mock/reviews'
+  3 | import { useEffect, useMemo, useRef, useState } from 'react'
+  4 | import StarIcon from '@/components/ui/StarIcon'
+> 5 | import { MOCK_REVIEWS } from '@/lib/mock/reviews'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | function Stars({ rating }: { rating: number }) {
+  8 |   const full = Math.floor(rating)
+
+Import map: aliased to relative './src/lib/mock/reviews' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/home/HappyCustomers.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/home/HappyCustomers.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.985] Server  ERROR   ⨯ ./wibesoft-case/src/components/home/HappyCustomers.tsx:5:1
+Module not found: Can't resolve '@/lib/mock/reviews'
+  3 | import { useEffect, useMemo, useRef, useState } from 'react'
+  4 | import StarIcon from '@/components/ui/StarIcon'
+> 5 | import { MOCK_REVIEWS } from '@/lib/mock/reviews'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | function Stars({ rating }: { rating: number }) {
+  8 |   const full = Math.floor(rating)
+
+Import map: aliased to relative './src/lib/mock/reviews' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/home/HappyCustomers.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/home/HappyCustomers.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.986] Server  ERROR   ⨯ ./wibesoft-case/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/lib/queries/useProducts'
+   7 | import HappyCustomers from '@/components/home/HappyCustomers'
+   8 |
+>  9 | import { useProducts } from '@/lib/queries/useProducts'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+
+Import map: aliased to relative './src/lib/queries/useProducts' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.987] Server  ERROR   ⨯ ./wibesoft-case/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/lib/queries/useProducts'
+   7 | import HappyCustomers from '@/components/home/HappyCustomers'
+   8 |
+>  9 | import { useProducts } from '@/lib/queries/useProducts'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+
+Import map: aliased to relative './src/lib/queries/useProducts' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.988] Server  ERROR   ⨯ ./wibesoft-case/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/lib/queries/useProducts'
+   7 | import HappyCustomers from '@/components/home/HappyCustomers'
+   8 |
+>  9 | import { useProducts } from '@/lib/queries/useProducts'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+
+Import map: aliased to relative './src/lib/queries/useProducts' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.991] Server  ERROR   ⨯ ./wibesoft-case/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/lib/queries/useProducts'
+   7 | import HappyCustomers from '@/components/home/HappyCustomers'
+   8 |
+>  9 | import { useProducts } from '@/lib/queries/useProducts'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+
+Import map: aliased to relative './src/lib/queries/useProducts' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.993] Server  ERROR   ⨯ ./wibesoft-case/src/app/layout.tsx:3:1
+Module not found: Can't resolve '@/lib/react-query/providers'
+  1 | import type { Metadata } from 'next'
+  2 | import './globals.css'
+> 3 | import { Providers } from '@/lib/react-query/providers'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import localFont from 'next/font/local'
+  5 | import Header from '@/components/layout/Header'
+  6 | import Footer from '@/components/layout/Footer'
+
+Import map: aliased to relative './src/lib/react-query/providers' inside of [project]/wibesoft-case
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.994] Server  ERROR   ⨯ ./wibesoft-case/src/app/layout.tsx:3:1
+Module not found: Can't resolve '@/lib/react-query/providers'
+  1 | import type { Metadata } from 'next'
+  2 | import './globals.css'
+> 3 | import { Providers } from '@/lib/react-query/providers'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import localFont from 'next/font/local'
+  5 | import Header from '@/components/layout/Header'
+  6 | import Footer from '@/components/layout/Footer'
+
+Import map: aliased to relative './src/lib/react-query/providers' inside of [project]/wibesoft-case
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.995] Server  ERROR   ⨯ ./wibesoft-case/src/app/page.tsx:10:1
+Module not found: Can't resolve '@/lib/selectors/products'
+   8 |
+   9 | import { useProducts } from '@/lib/queries/useProducts'
+> 10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+  13 |
+
+Import map: aliased to relative './src/lib/selectors/products' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.996] Server  ERROR   ⨯ ./wibesoft-case/src/app/page.tsx:10:1
+Module not found: Can't resolve '@/lib/selectors/products'
+   8 |
+   9 | import { useProducts } from '@/lib/queries/useProducts'
+> 10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+  13 |
+
+Import map: aliased to relative './src/lib/selectors/products' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:01.998] Server  ERROR   ⨯ ./wibesoft-case/src/app/page.tsx:10:1
+Module not found: Can't resolve '@/lib/selectors/products'
+   8 |
+   9 | import { useProducts } from '@/lib/queries/useProducts'
+> 10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+  13 |
+
+Import map: aliased to relative './src/lib/selectors/products' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.000] Server  ERROR   ⨯ ./wibesoft-case/src/app/page.tsx:10:1
+Module not found: Can't resolve '@/lib/selectors/products'
+   8 |
+   9 | import { useProducts } from '@/lib/queries/useProducts'
+> 10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+  13 |
+
+Import map: aliased to relative './src/lib/selectors/products' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.002] Server  ERROR   ⨯ ./wibesoft-case/src/app/page.tsx:10:1
+Module not found: Can't resolve '@/lib/selectors/products'
+   8 |
+   9 | import { useProducts } from '@/lib/queries/useProducts'
+> 10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+  13 |
+
+Import map: aliased to relative './src/lib/selectors/products' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.004] Server  ERROR   ⨯ ./wibesoft-case/src/app/page.tsx:10:1
+Module not found: Can't resolve '@/lib/selectors/products'
+   8 |
+   9 | import { useProducts } from '@/lib/queries/useProducts'
+> 10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+  13 |
+
+Import map: aliased to relative './src/lib/selectors/products' inside of [project]/wibesoft-case
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.006] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.008] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.010] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.014] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.017] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.018] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.020] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.021] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.023] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.025] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.027] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.029] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.032] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.034] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.035] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.036] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.038] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.038] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/NewsletterCTA.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | 'use client'
+  2 |
+> 3 | import { Mail } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function NewsletterCTA() {
+  6 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/NewsletterCTA.tsx
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.040] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/NewsletterCTA.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | 'use client'
+  2 |
+> 3 | import { Mail } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function NewsletterCTA() {
+  6 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/NewsletterCTA.tsx
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.041] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/NewsletterCTA.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | 'use client'
+  2 |
+> 3 | import { Mail } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function NewsletterCTA() {
+  6 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/NewsletterCTA.tsx
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.043] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/NewsletterCTA.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | 'use client'
+  2 |
+> 3 | import { Mail } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function NewsletterCTA() {
+  6 |   return (
+
+
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/NewsletterCTA.tsx
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.044] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/PromoBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import { X } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   href?: string
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.046] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/PromoBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import { X } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   href?: string
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.047] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/PromoBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import { X } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   href?: string
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.048] Server  ERROR   ⨯ ./wibesoft-case/src/components/layout/PromoBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import { X } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   href?: string
+
+
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/components/ui/Button.tsx:4:1
+Module not found: Can't resolve '../../lib/utils'
+  2 |
+  3 | import * as React from 'react'
+> 4 | import { cn } from '../../lib/utils'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | type ButtonVariant = 'default' | 'outline'
+  7 | type ButtonSize = 'default' | 'icon'
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/ui/Button.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/home/Hero.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/ui/Button.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/home/Hero.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/components/home/HappyCustomers.tsx:5:1
+Module not found: Can't resolve '@/lib/mock/reviews'
+  3 | import { useEffect, useMemo, useRef, useState } from 'react'
+  4 | import StarIcon from '@/components/ui/StarIcon'
+> 5 | import { MOCK_REVIEWS } from '@/lib/mock/reviews'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | function Stars({ rating }: { rating: number }) {
+  8 |   const full = Math.floor(rating)
+
+Import map: aliased to relative './src/lib/mock/reviews' inside of [project]/wibesoft-case
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/home/HappyCustomers.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/home/HappyCustomers.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/lib/queries/useProducts'
+   7 | import HappyCustomers from '@/components/home/HappyCustomers'
+   8 |
+>  9 | import { useProducts } from '@/lib/queries/useProducts'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+
+Import map: aliased to relative './src/lib/queries/useProducts' inside of [project]/wibesoft-case
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/app/layout.tsx:3:1
+Module not found: Can't resolve '@/lib/react-query/providers'
+  1 | import type { Metadata } from 'next'
+  2 | import './globals.css'
+> 3 | import { Providers } from '@/lib/react-query/providers'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import localFont from 'next/font/local'
+  5 | import Header from '@/components/layout/Header'
+  6 | import Footer from '@/components/layout/Footer'
+
+Import map: aliased to relative './src/lib/react-query/providers' inside of [project]/wibesoft-case
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/app/page.tsx:10:1
+Module not found: Can't resolve '@/lib/selectors/products'
+   8 |
+   9 | import { useProducts } from '@/lib/queries/useProducts'
+> 10 | import { selectNewArrivals, selectTopSelling } from '@/lib/selectors/products'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | import ProductSectionSkeleton from '@/components/products/skeletons/ProductSectionSkeleton'
+  13 |
+
+Import map: aliased to relative './src/lib/selectors/products' inside of [project]/wibesoft-case
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/app/page.tsx [Client Component Browser]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/app/page.tsx [Client Component SSR]
+    ./wibesoft-case/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/components/layout/Footer.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | import Link from 'next/link'
+  2 | import NewsletterCTA from './NewsletterCTA'
+> 3 | import { Twitter, Facebook, Instagram, Github } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const COLS = [
+  6 |   {
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/components/layout/Header.tsx:4:1
+Module not found: Can't resolve 'lucide-react'
+  2 |
+  3 | import Link from 'next/link'
+> 4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import { usePathname } from 'next/navigation'
+  6 | import { useCartStore } from '@/store/cart.store'
+  7 | import PromoBar from './PromoBar'
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/components/layout/NewsletterCTA.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | 'use client'
+  2 |
+> 3 | import { Mail } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export default function NewsletterCTA() {
+  6 |   return (
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/NewsletterCTA.tsx
+    ./wibesoft-case/src/components/layout/Footer.tsx
+    ./wibesoft-case/src/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/components/layout/PromoBar.tsx:5:1
+Module not found: Can't resolve 'lucide-react'
+  3 | import { useState } from 'react'
+  4 | import Link from 'next/link'
+> 5 | import { X } from 'lucide-react'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | type Props = {
+  8 |   href?: string
+
+Import traces:
+  Client Component Browser:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component Browser]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./wibesoft-case/src/components/layout/PromoBar.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Client Component SSR]
+    ./wibesoft-case/src/components/layout/Header.tsx [Server Component]
+    ./wibesoft-case/src/app/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx
+[00:05:02.168] Browser ERROR   ./wibesoft-case/src/components/layout/Header.tsx:6:1
+Export useCartStore doesn't exist in target module
+  4 | import { Search, ShoppingCart, User, ChevronDown, Menu } from 'lucide-react'
+  5 | import { usePathname } from 'next/navigation'
+> 6 | import { useCartStore } from '@/store/cart.store'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PromoBar from './PromoBar'
+  8 |
+  9 | const NAV = [
+
+The export useCartStore was not found in module [project]/wibesoft-case/src/store/cart.store.ts [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./wibesoft-case/src/components/layout/Header.tsx
+    ./wibesoft-case/src/app/layout.tsx

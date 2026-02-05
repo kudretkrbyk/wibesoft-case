@@ -4,10 +4,11 @@ Next.js (App Router) + TypeScript + TanStack Query v5 + Zustand + Tailwind CSS
 kullanılarak geliştirilen, FakeStore API üzerinden çalışan e-commerce case uygulaması.
 
 Bu çalışma bir **case study** olarak:
+
 - Figma’ya görsel olarak tutarlı UI
 - Temiz ve açıklanabilir mimari
 - Abartısız ama doğru state yönetimi
-hedeflenerek geliştirilmiştir.
+  hedeflenerek geliştirilmiştir.
 
 ---
 
@@ -28,12 +29,12 @@ Uygulama Ubuntu VDS üzerinde **Nginx reverse proxy + SSL** ile yayınlanmışt�
 - Zustand
 - FakeStore API
 
-
 ---
 
 ## ⚙️ Lokal Kurulum
 
 ### Gereksinimler
+
 - Node.js **LTS** (önerilen: 20.x)
 - npm
 
@@ -41,7 +42,22 @@ Uygulama Ubuntu VDS üzerinde **Nginx reverse proxy + SSL** ile yayınlanmışt�
 
 ### Kurulum
 
-```bash
-git clone <repo-url>
-cd <repo-folder>
+# 1) Repo'yu klonla
+
+git clone <REPO_URL>
+
+# 2) Proje klasörüne gir
+
+cd <REPO_FOLDER>
+
+# 3) Bağımlılıkları kur
+
 npm install
+
+# 4) Environment dosyasını oluştur (.env.example -> .env.local)
+
+cp .env.example .env.local
+
+# 5) Development server'ı başlat
+
+npm run dev
